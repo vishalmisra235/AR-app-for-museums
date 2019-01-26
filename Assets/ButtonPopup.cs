@@ -49,4 +49,12 @@ public class ButtonPopup : MonoBehaviour, ITrackableEventHandler
             }
         }
     }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MenuScene");
+        }
+    }
 }

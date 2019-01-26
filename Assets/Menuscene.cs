@@ -9,4 +9,12 @@ public class Menuscene : MonoBehaviour {
     {
         SceneManager.LoadScene("ar2");
     }
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
 }

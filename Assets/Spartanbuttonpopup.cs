@@ -49,4 +49,12 @@ public class Spartanbuttonpopup : MonoBehaviour, ITrackableEventHandler
             }
         }
     }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MenuScene");
+        }
+    }
 }
