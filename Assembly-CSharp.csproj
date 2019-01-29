@@ -98,7 +98,11 @@
     <Compile Include="Assets\Lean\Touch\Scripts\LeanSnapshot.cs" />
     <Compile Include="Assets\Lean\Touch\Scripts\LeanTouch.cs" />
     <Compile Include="Assets\Menuscene.cs" />
+    <Compile Include="Assets\nandiback.cs" />
+    <Compile Include="Assets\NanditextScript.cs" />
     <Compile Include="Assets\PinchZoom.cs" />
+    <Compile Include="Assets\queenback.cs" />
+    <Compile Include="Assets\queentextscript.cs" />
     <Compile Include="Assets\Spartanback.cs" />
     <Compile Include="Assets\Spartanbuttonpopup.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
@@ -109,6 +113,7 @@
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
     <None Include="Assets\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />
+    <None Include="Assets\StreamingAssets\Vuforia\museum_app.xml" />
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\1w1.xml" />
     <None Include="Assets\Lean\Touch\Examples\Shaders\Skybox.shader" />

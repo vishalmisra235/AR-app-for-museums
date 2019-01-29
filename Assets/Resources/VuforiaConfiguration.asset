@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: ASixm/n/////AAABGdmvS4Uo0kiPvEpnNVQjKcNLsQ8HHUHmG7eea8lUKblqRnp5xqo8VS5V9lvAdVwHYC3iaTa7dI7aYI4ylLJ41MYCpdTt97Gju4FO0dFDYHasWpZnK80/lBARgqxLSpSIt2lsVHmlaZuNQOgIYaoex2gUvugJNdPwgV39qYjQUqk8VFTE8TqUIkwZtcRu1THiN6amEsYF8VovohVE/udzxRpcFrWFM6XzhG0E+k5B0Zxh5aUf1jh2Le0WCx8n3xQiczh1ZT/2nduuPPnSPrvdouQ6Bf5PZoVMbGt50KTMK6Nd1I6oYB0FuvNNlO5pOHlhLPzSKY/qJbdPOroMcIPvGGHXLU83rilYtkdrzlLoFtTe
+    vuforiaLicenseKey: AWm4BuT/////AAABGY73BKit0ET+tjQJoC1i7VcN6XQvZ98ZmC0U/E9lttK4TQene8p+fn0FYz/yjFalwKANXbArMMHCllKzGo6srkoHN99/fSIqDmb8d+p43FFv+VJPy3HEPF7qWff9QSRhYxeAGC6jClIfnd89lw8YVriMeu3Xj7yrVgSbm53ejLAI7/O96bC3kyQqEMXO/uUMNi/PSvBE/9r9KrCa46oKp4RKI3xA2tBfysdQ/2EYdwyaF72CGcUBxXLJfhOG4CBnv2olw3aXnNGVjMwio1c5hppgpBB1F1OqyC8gJIkrkbvIzJzjRaVyiTJMGkaw/II+/m80AgfVwCe6hTZHHmJqCsK6ixXXjLzoYEhS1jgu+aUe
     ufoLicenseKey: QVQzNURhWC8vLy8vQUFBQUtMTXpkUzNLdFVBd3RoZFFyS0g4U2d5T0N3NXI3N3h4YjA2MjVSalp0dDNuWXFKalZYa09FV1lrK1ZGOXlpMWRrTkRYR205VXAvZjhBN2ZTWC9lVGcwTnN4QXNCUXYvOHR4Z1VVM2QxcnR0STFVbkFCT3JTK1NHdVdNK014REthTjFrRm1qTTJYdElZd3J3elcxdVVkK1lqOENoNjNIakZVejlBTTRtNnRqd0ZoMkVxTmpGZzlMZWNFYXc4Q1RlVDd1dXl4V2hwRXIwb1R0N0lxRGNoczBtY2xsd25MWUpWUE1OaDV2aUhWN1ZLK1B6WjROWkpXRHR3UFpBSWxxWjE1TkxETmJ3NXRCVlpIV3JYYjQwYmxsdDU3U1dUN3lsVFRSYXJDaGdLWVZLT3cxMDA5VVlycHE3RHRNUzdCck9JUzNyQiszT0JJY1RIRDR4YWdnRDQ5UmJtS3k0a3JoY0ZIT3JsS3Z4cGp1RUk=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 2
-    maxSimultaneousObjectTargets: 2
+    maxSimultaneousImageTargets: 4
+    maxSimultaneousObjectTargets: 4
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
@@ -51,8 +51,8 @@ MonoBehaviour:
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 1
-    autoStartTracker: 1
+    autoInitTracker: 0
+    autoStartTracker: 0
     trackingMode: 1
     posePrediction: 0
     modelCorrectionMode: 0

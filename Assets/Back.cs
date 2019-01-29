@@ -5,7 +5,7 @@ public class Back : MonoBehaviour {
 
 
     private bool mShowGUIButton = true;
-    private Rect mButtonRect = new Rect(50, 380, 400, 200);
+    private Rect mButtonRect = new Rect(50, 50, 400, 200);
 
     void OnGUI()
     {

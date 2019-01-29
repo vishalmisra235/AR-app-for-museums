@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/spartantextscene.unity
     guid: 8d5ddbc4cee94f443bc926f570ac4722
+  - enabled: 1
+    path: Assets/nanditextscene.unity
+    guid: 958cad11d6800ae4790bea21500e84bb
+  - enabled: 1
+    path: Assets/queentextscene.unity
+    guid: 3343b99c47e0b5a459a22e5de64a6709
   m_configObjects: {}

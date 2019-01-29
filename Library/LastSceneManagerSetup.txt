@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ar2.unity
+- path: Assets/queentextscene.unity
   isLoaded: 1
   isActive: 1
